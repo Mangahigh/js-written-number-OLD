@@ -47,6 +47,7 @@ Currently supported languages are:
 - Vietnamese `lang = "vi"`
 - Turkish `lang = "tr"`
 - English (Indian) `lang = "enIndian"`
+- German `lang = "de"`
 
 ### Spanish Example
 ```javascript
@@ -108,6 +109,10 @@ Example: 29 -> twenty`-`eight. Spanish uses the conector " y ".
 ##### unitSeparator:
 'String' that separates the units from the last base cardinal numbers.
 Example: 1234 -> one thousand two hundred **and** thirty-four
+
+##### noSpaces:
+'Boolean' that indicates if there should be spaces in between parts of the number.
+In German there are no spaces in written numbers smaller than a million.
 
 ##### base:
 Base cardinals numbers. Numbers that have unique names and are used to build
